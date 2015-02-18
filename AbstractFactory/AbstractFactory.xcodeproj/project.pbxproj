@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485170981A856E63002C23A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170971A856E63002C23A7 /* AppDelegate.swift */; };
+		4851709A1A856E63002C23A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170991A856E63002C23A7 /* ViewController.swift */; };
+		4851709D1A856E63002C23A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4851709B1A856E63002C23A7 /* Main.storyboard */; };
+		4851709F1A856E63002C23A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4851709E1A856E63002C23A7 /* Images.xcassets */; };
+		485170A21A856E63002C23A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485170A01A856E63002C23A7 /* LaunchScreen.xib */; };
+		485170AE1A856E63002C23A7 /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170AD1A856E63002C23A7 /* AbstractFactoryTests.swift */; };
+		485170B81A856ECA002C23A7 /* UIComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170B71A856ECA002C23A7 /* UIComponentFactory.swift */; };
+		485170B91A856ECA002C23A7 /* UIComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170B71A856ECA002C23A7 /* UIComponentFactory.swift */; };
+		485170BB1A856FCE002C23A7 /* WinterComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170BA1A856FCE002C23A7 /* WinterComponentFactory.swift */; };
+		485170BC1A856FCE002C23A7 /* WinterComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170BA1A856FCE002C23A7 /* WinterComponentFactory.swift */; };
+		485170BE1A856FDD002C23A7 /* AutumnComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170BD1A856FDD002C23A7 /* AutumnComponentFactory.swift */; };
+		485170BF1A856FDD002C23A7 /* AutumnComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170BD1A856FDD002C23A7 /* AutumnComponentFactory.swift */; };
+		485170C11A856FEC002C23A7 /* SpringComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170C01A856FEC002C23A7 /* SpringComponentFactory.swift */; };
+		485170C21A856FEC002C23A7 /* SpringComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170C01A856FEC002C23A7 /* SpringComponentFactory.swift */; };
+		485170C41A856FF8002C23A7 /* SummerComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170C31A856FF8002C23A7 /* SummerComponentFactory.swift */; };
+		485170C51A856FF8002C23A7 /* SummerComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170C31A856FF8002C23A7 /* SummerComponentFactory.swift */; };
+		485170CC1A857072002C23A7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170CB1A857072002C23A7 /* View.swift */; };
+		485170CD1A857072002C23A7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170CB1A857072002C23A7 /* View.swift */; };
+		485170CF1A85707B002C23A7 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170CE1A85707B002C23A7 /* Button.swift */; };
+		485170D01A85707B002C23A7 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170CE1A85707B002C23A7 /* Button.swift */; };
+		485170D21A857083002C23A7 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170D11A857083002C23A7 /* Label.swift */; };
+		485170D31A857083002C23A7 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170D11A857083002C23A7 /* Label.swift */; };
+		485170D51A85713C002C23A7 /* WinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170D41A85713C002C23A7 /* WinterView.swift */; };
+		485170D61A85713C002C23A7 /* WinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170D41A85713C002C23A7 /* WinterView.swift */; };
+		485170D81A857145002C23A7 /* WinterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170D71A857145002C23A7 /* WinterButton.swift */; };
+		485170D91A857145002C23A7 /* WinterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170D71A857145002C23A7 /* WinterButton.swift */; };
+		485170DB1A857155002C23A7 /* WinterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170DA1A857155002C23A7 /* WinterLabel.swift */; };
+		485170DC1A857155002C23A7 /* WinterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170DA1A857155002C23A7 /* WinterLabel.swift */; };
+		485170DE1A86E3D7002C23A7 /* AutumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170DD1A86E3D7002C23A7 /* AutumnView.swift */; };
+		485170DF1A86E3D7002C23A7 /* AutumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170DD1A86E3D7002C23A7 /* AutumnView.swift */; };
+		485170E11A86E3E5002C23A7 /* AutumnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170E01A86E3E5002C23A7 /* AutumnButton.swift */; };
+		485170E21A86E3E5002C23A7 /* AutumnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170E01A86E3E5002C23A7 /* AutumnButton.swift */; };
+		485170E41A86E3EF002C23A7 /* AutumnLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170E31A86E3EF002C23A7 /* AutumnLabel.swift */; };
+		485170E51A86E3EF002C23A7 /* AutumnLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170E31A86E3EF002C23A7 /* AutumnLabel.swift */; };
+		485170E71A86E43C002C23A7 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170E61A86E43C002C23A7 /* SpringView.swift */; };
+		485170E81A86E43C002C23A7 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170E61A86E43C002C23A7 /* SpringView.swift */; };
+		485170EA1A86E449002C23A7 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170E91A86E449002C23A7 /* SpringButton.swift */; };
+		485170EB1A86E449002C23A7 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170E91A86E449002C23A7 /* SpringButton.swift */; };
+		485170ED1A86E453002C23A7 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170EC1A86E453002C23A7 /* SpringLabel.swift */; };
+		485170EE1A86E453002C23A7 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170EC1A86E453002C23A7 /* SpringLabel.swift */; };
+		485170F01A86E45C002C23A7 /* SummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170EF1A86E45C002C23A7 /* SummerView.swift */; };
+		485170F11A86E45C002C23A7 /* SummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170EF1A86E45C002C23A7 /* SummerView.swift */; };
+		485170F31A86E466002C23A7 /* SummerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170F21A86E466002C23A7 /* SummerButton.swift */; };
+		485170F41A86E466002C23A7 /* SummerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170F21A86E466002C23A7 /* SummerButton.swift */; };
+		485170F61A86E46E002C23A7 /* SummerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170F51A86E46E002C23A7 /* SummerLabel.swift */; };
+		485170F71A86E46E002C23A7 /* SummerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170F51A86E46E002C23A7 /* SummerLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485170A81A856E63002C23A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4851708A1A856E63002C23A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485170911A856E63002C23A7;
+			remoteInfo = AbstractFactory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		485170921A856E63002C23A7 /* AbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485170961A856E63002C23A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485170971A856E63002C23A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485170991A856E63002C23A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4851709C1A856E63002C23A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4851709E1A856E63002C23A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		485170A11A856E63002C23A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		485170A71A856E63002C23A7 /* AbstractFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485170AC1A856E63002C23A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485170AD1A856E63002C23A7 /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
+		485170B71A856ECA002C23A7 /* UIComponentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIComponentFactory.swift; sourceTree = "<group>"; };
+		485170BA1A856FCE002C23A7 /* WinterComponentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinterComponentFactory.swift; sourceTree = "<group>"; };
+		485170BD1A856FDD002C23A7 /* AutumnComponentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutumnComponentFactory.swift; sourceTree = "<group>"; };
+		485170C01A856FEC002C23A7 /* SpringComponentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringComponentFactory.swift; sourceTree = "<group>"; };
+		485170C31A856FF8002C23A7 /* SummerComponentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerComponentFactory.swift; sourceTree = "<group>"; };
+		485170CB1A857072002C23A7 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		485170CE1A85707B002C23A7 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		485170D11A857083002C23A7 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		485170D41A85713C002C23A7 /* WinterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinterView.swift; sourceTree = "<group>"; };
+		485170D71A857145002C23A7 /* WinterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinterButton.swift; sourceTree = "<group>"; };
+		485170DA1A857155002C23A7 /* WinterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinterLabel.swift; sourceTree = "<group>"; };
+		485170DD1A86E3D7002C23A7 /* AutumnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutumnView.swift; sourceTree = "<group>"; };
+		485170E01A86E3E5002C23A7 /* AutumnButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutumnButton.swift; sourceTree = "<group>"; };
+		485170E31A86E3EF002C23A7 /* AutumnLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutumnLabel.swift; sourceTree = "<group>"; };
+		485170E61A86E43C002C23A7 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		485170E91A86E449002C23A7 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		485170EC1A86E453002C23A7 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		485170EF1A86E45C002C23A7 /* SummerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerView.swift; sourceTree = "<group>"; };
+		485170F21A86E466002C23A7 /* SummerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerButton.swift; sourceTree = "<group>"; };
+		485170F51A86E46E002C23A7 /* SummerLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4851708F1A856E63002C23A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485170A41A856E63002C23A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485170891A856E63002C23A7 = {
+			isa = PBXGroup;
+			children = (
+				485170941A856E63002C23A7 /* AbstractFactory */,
+				485170AA1A856E63002C23A7 /* AbstractFactoryTests */,
+				485170931A856E63002C23A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485170931A856E63002C23A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485170921A856E63002C23A7 /* AbstractFactory.app */,
+				485170A71A856E63002C23A7 /* AbstractFactoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485170941A856E63002C23A7 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				485170CA1A857065002C23A7 /* Components */,
+				485170C91A85703E002C23A7 /* Summer */,
+				485170C81A857039002C23A7 /* Spring */,
+				485170C71A85702E002C23A7 /* Autumn */,
+				485170C61A857026002C23A7 /* Winter */,
+				485170971A856E63002C23A7 /* AppDelegate.swift */,
+				485170991A856E63002C23A7 /* ViewController.swift */,
+				4851709B1A856E63002C23A7 /* Main.storyboard */,
+				4851709E1A856E63002C23A7 /* Images.xcassets */,
+				485170A01A856E63002C23A7 /* LaunchScreen.xib */,
+				485170951A856E63002C23A7 /* Supporting Files */,
+				485170B71A856ECA002C23A7 /* UIComponentFactory.swift */,
+				485170BA1A856FCE002C23A7 /* WinterComponentFactory.swift */,
+				485170BD1A856FDD002C23A7 /* AutumnComponentFactory.swift */,
+				485170C01A856FEC002C23A7 /* SpringComponentFactory.swift */,
+				485170C31A856FF8002C23A7 /* SummerComponentFactory.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		485170951A856E63002C23A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				485170961A856E63002C23A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		485170AA1A856E63002C23A7 /* AbstractFactoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				485170AD1A856E63002C23A7 /* AbstractFactoryTests.swift */,
+				485170AB1A856E63002C23A7 /* Supporting Files */,
+			);
+			path = AbstractFactoryTests;
+			sourceTree = "<group>";
+		};
+		485170AB1A856E63002C23A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				485170AC1A856E63002C23A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		485170C61A857026002C23A7 /* Winter */ = {
+			isa = PBXGroup;
+			children = (
+				485170D41A85713C002C23A7 /* WinterView.swift */,
+				485170D71A857145002C23A7 /* WinterButton.swift */,
+				485170DA1A857155002C23A7 /* WinterLabel.swift */,
+			);
+			path = Winter;
+			sourceTree = "<group>";
+		};
+		485170C71A85702E002C23A7 /* Autumn */ = {
+			isa = PBXGroup;
+			children = (
+				485170DD1A86E3D7002C23A7 /* AutumnView.swift */,
+				485170E01A86E3E5002C23A7 /* AutumnButton.swift */,
+				485170E31A86E3EF002C23A7 /* AutumnLabel.swift */,
+			);
+			path = Autumn;
+			sourceTree = "<group>";
+		};
+		485170C81A857039002C23A7 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				485170E61A86E43C002C23A7 /* SpringView.swift */,
+				485170E91A86E449002C23A7 /* SpringButton.swift */,
+				485170EC1A86E453002C23A7 /* SpringLabel.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		485170C91A85703E002C23A7 /* Summer */ = {
+			isa = PBXGroup;
+			children = (
+				485170EF1A86E45C002C23A7 /* SummerView.swift */,
+				485170F21A86E466002C23A7 /* SummerButton.swift */,
+				485170F51A86E46E002C23A7 /* SummerLabel.swift */,
+			);
+			path = Summer;
+			sourceTree = "<group>";
+		};
+		485170CA1A857065002C23A7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				485170CB1A857072002C23A7 /* View.swift */,
+				485170CE1A85707B002C23A7 /* Button.swift */,
+				485170D11A857083002C23A7 /* Label.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485170911A856E63002C23A7 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485170B11A856E63002C23A7 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				4851708E1A856E63002C23A7 /* Sources */,
+				4851708F1A856E63002C23A7 /* Frameworks */,
+				485170901A856E63002C23A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = 485170921A856E63002C23A7 /* AbstractFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485170A61A856E63002C23A7 /* AbstractFactoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485170B41A856E63002C23A7 /* Build configuration list for PBXNativeTarget "AbstractFactoryTests" */;
+			buildPhases = (
+				485170A31A856E63002C23A7 /* Sources */,
+				485170A41A856E63002C23A7 /* Frameworks */,
+				485170A51A856E63002C23A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485170A91A856E63002C23A7 /* PBXTargetDependency */,
+			);
+			name = AbstractFactoryTests;
+			productName = AbstractFactoryTests;
+			productReference = 485170A71A856E63002C23A7 /* AbstractFactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4851708A1A856E63002C23A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Marcin Krzych";
+				TargetAttributes = {
+					485170911A856E63002C23A7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					485170A61A856E63002C23A7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 485170911A856E63002C23A7;
+					};
+				};
+			};
+			buildConfigurationList = 4851708D1A856E63002C23A7 /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485170891A856E63002C23A7;
+			productRefGroup = 485170931A856E63002C23A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485170911A856E63002C23A7 /* AbstractFactory */,
+				485170A61A856E63002C23A7 /* AbstractFactoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485170901A856E63002C23A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4851709D1A856E63002C23A7 /* Main.storyboard in Resources */,
+				485170A21A856E63002C23A7 /* LaunchScreen.xib in Resources */,
+				4851709F1A856E63002C23A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485170A51A856E63002C23A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4851708E1A856E63002C23A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485170CC1A857072002C23A7 /* View.swift in Sources */,
+				485170ED1A86E453002C23A7 /* SpringLabel.swift in Sources */,
+				485170E11A86E3E5002C23A7 /* AutumnButton.swift in Sources */,
+				485170C41A856FF8002C23A7 /* SummerComponentFactory.swift in Sources */,
+				485170D81A857145002C23A7 /* WinterButton.swift in Sources */,
+				4851709A1A856E63002C23A7 /* ViewController.swift in Sources */,
+				485170DE1A86E3D7002C23A7 /* AutumnView.swift in Sources */,
+				485170E71A86E43C002C23A7 /* SpringView.swift in Sources */,
+				485170E41A86E3EF002C23A7 /* AutumnLabel.swift in Sources */,
+				485170DB1A857155002C23A7 /* WinterLabel.swift in Sources */,
+				485170D51A85713C002C23A7 /* WinterView.swift in Sources */,
+				485170F01A86E45C002C23A7 /* SummerView.swift in Sources */,
+				485170B81A856ECA002C23A7 /* UIComponentFactory.swift in Sources */,
+				485170981A856E63002C23A7 /* AppDelegate.swift in Sources */,
+				485170BE1A856FDD002C23A7 /* AutumnComponentFactory.swift in Sources */,
+				485170BB1A856FCE002C23A7 /* WinterComponentFactory.swift in Sources */,
+				485170EA1A86E449002C23A7 /* SpringButton.swift in Sources */,
+				485170F61A86E46E002C23A7 /* SummerLabel.swift in Sources */,
+				485170F31A86E466002C23A7 /* SummerButton.swift in Sources */,
+				485170CF1A85707B002C23A7 /* Button.swift in Sources */,
+				485170D21A857083002C23A7 /* Label.swift in Sources */,
+				485170C11A856FEC002C23A7 /* SpringComponentFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485170A31A856E63002C23A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485170BF1A856FDD002C23A7 /* AutumnComponentFactory.swift in Sources */,
+				485170C51A856FF8002C23A7 /* SummerComponentFactory.swift in Sources */,
+				485170F11A86E45C002C23A7 /* SummerView.swift in Sources */,
+				485170B91A856ECA002C23A7 /* UIComponentFactory.swift in Sources */,
+				485170D91A857145002C23A7 /* WinterButton.swift in Sources */,
+				485170E51A86E3EF002C23A7 /* AutumnLabel.swift in Sources */,
+				485170F41A86E466002C23A7 /* SummerButton.swift in Sources */,
+				485170D01A85707B002C23A7 /* Button.swift in Sources */,
+				485170DF1A86E3D7002C23A7 /* AutumnView.swift in Sources */,
+				485170AE1A856E63002C23A7 /* AbstractFactoryTests.swift in Sources */,
+				485170D31A857083002C23A7 /* Label.swift in Sources */,
+				485170E81A86E43C002C23A7 /* SpringView.swift in Sources */,
+				485170BC1A856FCE002C23A7 /* WinterComponentFactory.swift in Sources */,
+				485170CD1A857072002C23A7 /* View.swift in Sources */,
+				485170DC1A857155002C23A7 /* WinterLabel.swift in Sources */,
+				485170EB1A86E449002C23A7 /* SpringButton.swift in Sources */,
+				485170E21A86E3E5002C23A7 /* AutumnButton.swift in Sources */,
+				485170EE1A86E453002C23A7 /* SpringLabel.swift in Sources */,
+				485170F71A86E46E002C23A7 /* SummerLabel.swift in Sources */,
+				485170C21A856FEC002C23A7 /* SpringComponentFactory.swift in Sources */,
+				485170D61A85713C002C23A7 /* WinterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485170A91A856E63002C23A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485170911A856E63002C23A7 /* AbstractFactory */;
+			targetProxy = 485170A81A856E63002C23A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4851709B1A856E63002C23A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4851709C1A856E63002C23A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485170A01A856E63002C23A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485170A11A856E63002C23A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485170AF1A856E63002C23A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485170B01A856E63002C23A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485170B21A856E63002C23A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		485170B31A856E63002C23A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		485170B51A856E63002C23A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AbstractFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbstractFactory.app/AbstractFactory";
+			};
+			name = Debug;
+		};
+		485170B61A856E63002C23A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AbstractFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbstractFactory.app/AbstractFactory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4851708D1A856E63002C23A7 /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485170AF1A856E63002C23A7 /* Debug */,
+				485170B01A856E63002C23A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485170B11A856E63002C23A7 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485170B21A856E63002C23A7 /* Debug */,
+				485170B31A856E63002C23A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		485170B41A856E63002C23A7 /* Build configuration list for PBXNativeTarget "AbstractFactoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485170B51A856E63002C23A7 /* Debug */,
+				485170B61A856E63002C23A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4851708A1A856E63002C23A7 /* Project object */;
+}
